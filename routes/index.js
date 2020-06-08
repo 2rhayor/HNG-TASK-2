@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function (req, res) {
 
-  // given a particular service URL, we want to be able to tell if the service is available/healthy or otherwise
+  // given a particular service URL, we want to be able to tell if the service is healthy or otherwise
   // healthy means it returns a valid response i.e. status code 200
   // unhealthy means it returns an invalid response i.e. status code not equals 200
 
